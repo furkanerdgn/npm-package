@@ -1,9 +1,32 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
+button {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
   padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
+  cursor: pointer;
+}
+
+.button--dark {
+  background-color: #2A2F4F;
+  color: #FDE2F3;
+  border: 2px solid #FDE2F3;
+}
+.button--primary {
+  background-color: #917FB3;
+  color: #FDE2F3;
+  border: 2px solid #2A2F4F;
+}
+.button--light {
+  background-color: #FDE2F3;
+  color: #2A2F4F;
+  border: 2px solid #2A2F4F;
+}
+.button--dashed {
+  background-color: #fff;
+  color: #2A2F4F;
+  border: 2px dashed #2A2F4F;
 }
